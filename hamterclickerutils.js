@@ -18,7 +18,7 @@ class HamterClickerUtils {
     };
   }
 
-  addcommas() {
+  addcommas(args) {
     let numStr = args.NUMBER.toString();
     let parts = numStr.split('.');
     let integerPart = parts[0];
